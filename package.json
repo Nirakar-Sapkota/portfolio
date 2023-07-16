@@ -16,6 +16,7 @@
     "@types/three": "^0.152.1",
     "firebase": "^8.6.8",
     "framer-motion": "^10.12.18",
+    "gpg": "^0.6.0",
     "maath": "^0.7.0",
     "next": "^13.4.9",
     "prop-types": "^15.8.1",
