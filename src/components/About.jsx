@@ -53,7 +53,7 @@ const About = () => {
     <motion.p
       variants={fadeIn('','',0.1,1)}
     >
-      I am Graduate from Victoria University and I am looking for a 
+      I am a Graduate from Victoria University and I am looking for a 
       role as a front-end-developer.
     </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
