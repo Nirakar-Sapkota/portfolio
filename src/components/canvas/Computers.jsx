@@ -8,7 +8,7 @@ import CanvasLoader from '../loader'
 
 
  const Computers=({isMobile}) =>{
-  const computer = useLoader(GLTFLoader, './desktop_pc/scene.gltf')
+  const computer = useLoader(GLTFLoader, '/public/desktop_pc/scene.gltf')
   
  
 
