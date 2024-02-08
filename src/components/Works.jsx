@@ -69,7 +69,7 @@ const ProjectCard=({index, name,description, tags, image, source_code_link})=>{
 }
 const Works = () => {
   return (
-    <>
+    <div>
     <motion.div variants={textVariant()}>
 
       <p className={styles.sectionSubText}> My Works</p>
@@ -96,7 +96,7 @@ const Works = () => {
         ))}
       </div>
 
-    </>
+    </div>
   )
 }
 
