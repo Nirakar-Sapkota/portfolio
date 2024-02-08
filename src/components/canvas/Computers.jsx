@@ -6,7 +6,7 @@ import { Canvas, useLoader } from '@react-three/fiber'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import CanvasLoader from '../Loader.jsx'
 import { useGLTF, useAnimations } from '@react-three/drei'
-import { R2d2 } from '../../../dist/r2d2/Scene'
+import { R2d2 } from './R2d2.jsx'
 
 
  const Computers=({isMobile}) =>{
