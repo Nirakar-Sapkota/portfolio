@@ -4,7 +4,7 @@ import React , {Suspense,useRef, useEffect, useState} from 'react'
 import { Canvas, useLoader } from '@react-three/fiber'
 
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
-import CanvasLoader from '../loader'
+import CanvasLoader from '../Loader.jsx'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { R2d2 } from '../../../dist/r2d2/Scene'
 
