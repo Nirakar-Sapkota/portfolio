@@ -53,8 +53,7 @@ const About = () => {
     <motion.p
       variants={fadeIn('','',0.1,1)}
     >
-      I am a Graduate from Victoria University and I am looking for a 
-      role as a front-end-developer.
+      I am an IT Graduate from Victoria University with more than four years of customer service experience with High level of Technical Skills to meet your organisations standard.
     </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index)=>{
