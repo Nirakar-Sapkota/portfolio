@@ -20,7 +20,7 @@ return(
                   <img 
                     src={experience.icon}
                     alt={experience.company_name}
-                    className='w-[60%] h-[60%] object-contain'/>
+                    className='w-[80%] h-[80%] object-contain'/>
                   
                 </div>
               }
@@ -54,6 +54,7 @@ const Experience = () => {
           <p className={styles.sectionSubText}> What Have I done So far</p>
           <h2 className={styles.sectionHeadText}>Education and Work Experience</h2>
         </motion.div>
+        
         <div className='mt-20 flex flex-col'>
           <VerticalTimeline>
             {experiences.map((experience, index)=>(

@@ -9,13 +9,11 @@ import {
   html,
   css,
   reactjs,
-  redux,
+ 
   tailwind,
-  nodejs,
-  mongodb,
+
   git,
-  figma,
-  docker,
+
   webvine,
   google,
  comptia,
@@ -62,7 +60,7 @@ const services = [
   {
     title: "Azure",
     icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -86,22 +84,13 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+ 
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+
+
   {
     name: "Three JS",
     icon: threejs,
@@ -110,14 +99,8 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
+
 ];
 
 const experiences = [
