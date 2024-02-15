@@ -212,7 +212,7 @@ const testimonials = [
     name: "CompTIA",
     designation: "Cyber Security Certification",
     company: "Enrolled With: Learning People / Skillsoft",
-    image: comptia,
+    image: securityplus,
   },
 ];
 
