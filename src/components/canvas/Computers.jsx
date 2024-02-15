@@ -53,7 +53,8 @@ import { R2d2 } from './R2d2.jsx'
   <Canvas
     frameloop='always'
     shadows='soft'
-    camera={{position:[25,25,45], fov:2}}
+    camera={{position:[25,15,45], fov:2}}
+ 
    
   >
 

@@ -44,7 +44,7 @@ const ServiceCard =({index, title, icon})=>(
 const About = () => {
 
   return (
-    <div>
+    <div className="-mt-15">
     <motion.div variants={textVariant()}>
     <p className={styles.sectionSubText}> Introduction</p>
     <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -53,7 +53,7 @@ const About = () => {
     <motion.p
       variants={fadeIn('','',0.1,1)}
     >
-      I am an IT Graduate from Victoria University with more than four years of customer service experience with High level of Technical Skills to meet your organisations standard.
+      I am an IT Graduate from Victoria University with more than four years of customer service experience with High level of Technical Skills to meet your organisational standards.
     </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index)=>{

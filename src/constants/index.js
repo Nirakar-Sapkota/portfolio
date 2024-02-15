@@ -17,7 +17,7 @@ import {
   webvine,
   google,
  comptia,
-  officeworks,
+   officeworks,
   acs,
   carrent,
   jobit,
@@ -158,7 +158,7 @@ const experiences = [
   {
     title:"Internship",
     company_name:"WebVine",
-    icon:webvine,
+    icon: webvine,
     iconBg: "#383E56",
     date:"Jan 2020 - May 2020",
     points: [
@@ -182,7 +182,8 @@ const experiences = [
     points: [
       "Business Communications",
       "Workplace Relations and Practice",
-      "WH&S","Report Writing and presentation Skills",
+      "WH&S",
+      "Report Writing and presentation Skills",
     ],
   },
   

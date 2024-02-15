@@ -14,7 +14,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Canvas, useLoader } from '@react-three/fiber'
 export function R2d2(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('../r2d2/r2d2-transformed.glb')
+  const { nodes, materials, animations } = useGLTF('./r2d2/r2d2-transformed.glb')
   const { actions } = useAnimations(animations, group)
 
  
@@ -33,13 +33,13 @@ export function R2d2(props) {
 
     <group ref={group} {...props} dispose={null}>
   
-      <group name="Sketchfab_Scene">
+      <group name="Sketchfab_Scene" className='-mt-5'>
       
          <mesh>
               <hemisphereLight intensity={0.21}/>
               <pointLight 
               intensity={1.8}
-                position = {[30,25,-12]}
+                position = {[30,10,-12]}
               />
                 <SpotLight
                   position ={[-3,-8,8]}
@@ -52,7 +52,7 @@ export function R2d2(props) {
            
       </mesh>
      
-        <group name="_D2_R2Body_NeutralPose" position={[0.95, -0.50, 0]} scale={0.269}>
+        <group  name="_D2_R2Body_NeutralPose" position={[0.5, -0.30, 0]} scale={0.239}>
           <group name="_D2_R2Body">
             <group name="_D2_R2Left_Upper_Leg" position={[0.024, -1.084, 0.027]} scale={0.037}>
               <group name="_D2_R2Left_Lower_Leg">
@@ -164,7 +164,7 @@ export function R2d2(props) {
             </group>
           </group>
         </group>
-        <mesh name="_D2_R2Left_Foot_Left_FootMat_0" geometry={nodes._D2_R2Left_Foot_Left_FootMat_0.geometry} material={materials.Left_FootMat} position={[0.95, -0.79, 0.006]} scale={0.010} />
+        <mesh name="_D2_R2Left_Foot_Left_FootMat_0" geometry={nodes._D2_R2Left_Foot_Left_FootMat_0.geometry} material={materials.Left_FootMat} position={[0.5, -0.55, 0.009]} scale={0.009} />
       </group>
     </group>
 
