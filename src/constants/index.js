@@ -236,7 +236,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:"https://i.ibb.co/Pxbk8TJ/activedirectory.png",
+    image:google,
     source_code_link: "https://github.com/Nirakar-Sapkota",
   },
   {
@@ -257,7 +257,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.ibb.co/d4PGNBh/cs.jpg",
+    image: securityplus,
     source_code_link: "https://github.com/Nirakar-Sapkota/fim",
   },
   {
@@ -278,7 +278,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://i.ibb.co/N9VXtXg/portfolio.png",
+    image: react,
     source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
 ];
