@@ -174,7 +174,7 @@ const experiences = [
   },
 
   {
-    title: "The ACS Professional Year Program – ICT: Current Member ID #4265238                                                            ",
+    title: "The ACS Professional Year Program – ICT: Current Member ID #4265238",
     company_name: "QIBA",
     icon: acs,
     iconBg: "#E6DEDD",
