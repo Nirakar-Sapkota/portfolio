@@ -45,22 +45,6 @@ const EarthCanvas=()=>{
     <Earth/>
     
     </Suspense>
-<<<<<<< HEAD
-    <mesh>
- 
- <hemisphereLight intensity={0.21}/>
- <pointLight 
- intensity={1.8}
-   position = {[30,10,-12]}
- />
-   <SpotLight
-     position ={[-3,-8,8]}
-     penumbra={2}
-     intensity={3.5}
-     shadow-mapSize={1024}
- />
-</mesh>
-=======
     <mesh>
  
     <hemisphereLight intensity={0.21}/>
@@ -76,7 +60,6 @@ const EarthCanvas=()=>{
     />
   </mesh>
     
->>>>>>> bbf8258489b1d6992ef65e1c25418fdb5a5d795c
     </Canvas>)
 }
 export default EarthCanvas
