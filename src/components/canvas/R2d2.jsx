@@ -52,7 +52,7 @@ export function R2d2(props) {
            
       </mesh>
      
-        <group name="_D2_R2Body_NeutralPose" position={[0.95, -0.50, 0]} scale={0.269}>
+         <group name="_D2_R2Body_NeutralPose" position={[1.5, -0.30, 0]} scale={0.239}>
           <group name="_D2_R2Body">
             <group name="_D2_R2Left_Upper_Leg" position={[0.024, -1.084, 0.027]} scale={0.037}>
               <group name="_D2_R2Left_Lower_Leg">
@@ -164,7 +164,7 @@ export function R2d2(props) {
             </group>
           </group>
         </group>
-        <mesh name="_D2_R2Left_Foot_Left_FootMat_0" geometry={nodes._D2_R2Left_Foot_Left_FootMat_0.geometry} material={materials.Left_FootMat} position={[0.95, -0.79, 0.006]} scale={0.010} />
+       <mesh name="_D2_R2Left_Foot_Left_FootMat_0" geometry={nodes._D2_R2Left_Foot_Left_FootMat_0.geometry} material={materials.Left_FootMat} position={[1.5, -0.55, 0.009]} scale={0.009} />
       </group>
     </group>
 
