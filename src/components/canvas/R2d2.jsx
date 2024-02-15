@@ -14,7 +14,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Canvas, useLoader } from '@react-three/fiber'
 export function R2d2(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('../r2d2/r2d2-transformed.glb')
+  const { nodes, materials, animations } = useGLTF('./r2d2/r2d2-transformed.glb')
   const { actions } = useAnimations(animations, group)
 
  
