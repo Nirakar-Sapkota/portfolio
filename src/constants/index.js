@@ -217,20 +217,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "System Administration Project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "Active directory administration o	PowerShell: Automated Provision, maintaining and deprovisioning user accounts.Setting up Remote Access Server (RAS) features to support NAT/PAT.Implementation and Maintenance of Windows DNS and DHCP Services.Configuration of Windows File Servers with Implementation of quotas and NTFS permissions",
+  
+      tags: [
       {
-        name: "react",
+        name: "Active Directory",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PowerShell",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Windows Server",
         color: "pink-text-gradient",
       },
     ],
