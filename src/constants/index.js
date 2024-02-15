@@ -203,7 +203,7 @@ const testimonials = [
       "Azure Cloud",
     name: "Microsoft",
     designation: "Certification",
-    company: "Courser/Microsoft",
+    company: "Coursera/Microsoft",
     image:azure,
   },
   {
