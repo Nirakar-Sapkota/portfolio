@@ -13,10 +13,11 @@ import {
   tailwind,
 
   git,
-
+  azure,
   webvine,
   google,
   comptia,
+  securityplus,
   officeworks,
   acs,
   carrent,
@@ -47,19 +48,19 @@ const services = [
   },
   {
     title: "Web Development",
-    icon: web,
+    icon: reactjs,
   },
   {
     title: "CompTIA Network +",
-    icon: mobile,
+    icon: comptia,
   },
   {
     title: "CompTIA Security+",
-    icon: backend,
+    icon: securityplus,
   },
   {
     title: "Azure",
-    icon: creator,
+    icon: azure,
   }
 ];
 
@@ -203,7 +204,7 @@ const testimonials = [
     name: "Microsoft",
     designation: "Certification",
     company: "Courser/Microsoft",
-    image:backend,
+    image:azure,
   },
   {
     testimonial:
@@ -262,7 +263,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-      "Building my own portfoli had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Worked with various technologies and frameworks allowed me to learn different aspects of web.",
+      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Worked with various technologies and frameworks allowed me to learn different aspects of web.",
     tags: [
       {
         name: "threeJs",

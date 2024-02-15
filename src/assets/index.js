@@ -27,6 +27,8 @@ import google from "./company/google.png";
 import webvine from "./company/webvine.png";
 import comptia from "./company/comptia.png";
 import acs from "./company/acs.png"
+import azure from "./company/azure.png"
+import securityplus from "./company/securityplus.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +38,7 @@ export {
   logo,
   vu,
   acs,
+  azure,
   backend,
   creator,
   mobile,
@@ -53,6 +56,7 @@ export {
   typescript,
   threejs,
   comptia,
+  securityplus,
   officeworks,
   webvine,
   google,
