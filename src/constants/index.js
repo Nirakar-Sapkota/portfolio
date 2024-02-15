@@ -203,7 +203,7 @@ const testimonials = [
     name: "Microsoft",
     designation: "Certification",
     company: "Courser/Microsoft",
-    image:azure,
+    image:backend,
   },
   {
     testimonial:
