@@ -235,50 +235,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image:"https://unsplash.com/photos/gray-wooden-windowpane-4gRNmhGzYZE",
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Cyber Security Enthusiast",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a custom/proof of concept File Integrity Monitor (FIM).Created an Integrity Baseline of target files/ folders using a SHA-512 hashing algorithm. Continuously made comparison of actual file versus baseline, raised alerts if any deviations occurred.Displayed alert messages to allow further investigation and potentials.",
     tags: [
+      {
+        name: "PowerShell",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Hashing",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SHA-512",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "https://unsplash.com/photos/closeup-photo-of-turned-on-blue-and-white-laptop-computer-iIJrUoeRoCQ",
+    source_code_link: "https://github.com/Nirakar-Sapkota/fim",
+  },
+  {
+    name: "Portfolio Website",
+    description:
+      "Building my own portfoli had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Worked with various technologies and frameworks allowed me to learn different aspects of web.",
+    tags: [
+      {
+        name: "threeJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
       {
         name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: threejs,
+    source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
 ];
 
