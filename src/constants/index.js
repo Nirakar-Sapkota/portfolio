@@ -16,7 +16,7 @@ import {
 
   webvine,
   google,
- comptia,
+  comptia,
   officeworks,
   acs,
   carrent,
@@ -235,7 +235,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:"https://unsplash.com/photos/gray-wooden-windowpane-4gRNmhGzYZE",
+    image:"https://i.ibb.co/Pxbk8TJ/activedirectory.png",
     source_code_link: "https://github.com/",
   },
   {
@@ -256,7 +256,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "https://unsplash.com/photos/closeup-photo-of-turned-on-blue-and-white-laptop-computer-iIJrUoeRoCQ",
+    image: "https://i.ibb.co/d4PGNBh/cs.jpg",
     source_code_link: "https://github.com/Nirakar-Sapkota/fim",
   },
   {
@@ -277,7 +277,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: threejs,
+    image: "https://i.ibb.co/N9VXtXg/portfolio.png",
     source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
 ];
