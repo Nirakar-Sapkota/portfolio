@@ -263,7 +263,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Worked with various technologies and frameworks allowed me to learn different aspects of web.",
+      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Working with various technologies and frameworks allowed me to learn different aspects of web.",
     tags: [
       {
         name: "threeJs",
