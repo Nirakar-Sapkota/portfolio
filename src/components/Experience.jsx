@@ -51,7 +51,7 @@ const Experience = () => {
   return (
       <div>
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}> What Have I done So far</p>
+          <p className={styles.sectionSubText}> My Journey </p>
           <h2 className={styles.sectionHeadText}>Education and Work Experience</h2>
         </motion.div>
         
