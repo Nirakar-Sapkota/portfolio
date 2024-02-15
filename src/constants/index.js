@@ -278,7 +278,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: react,
+    image: reactjs,
     source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
 ];
