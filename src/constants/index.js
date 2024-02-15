@@ -219,7 +219,7 @@ const projects = [
   {
     name: "System Administration Project",
     description:
-      "Active directory administration o	PowerShell: Automated Provision, maintaining and deprovisioning user accounts.Setting up Remote Access Server (RAS) features to support NAT/PAT.Implementation and Maintenance of Windows DNS and DHCP Services.Configuration of Windows File Servers with Implementation of quotas and NTFS permissions",
+      "Active directory administration, PowerShell: Automated Provision, maintaining and deprovisioning user accounts.Setting up Remote Access Server (RAS) features to support NAT/PAT.Implementation and Maintenance of Windows DNS and DHCP Services.Configuration of Windows File Servers with Implementation of quotas and NTFS permissions",
   
       tags: [
       {
