@@ -12,6 +12,8 @@ import React, { useRef, useEffect, useState } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Canvas, useLoader } from '@react-three/fiber'
+import { MeshoptDecoder } from './meshopt_decoder.module.js';
+
 export function R2d2(props) {
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('./r2d2/r2d2-transformed.glb')
