@@ -16,20 +16,20 @@ const Navbar = () => {
     >
     <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
       <Link 
-        to ='/'
+        to ='/portfolio'
         className='flex items-center gap-2'
         onClick={()=>{
           setActive('');//Keeps track of the position
           window.scrollTo(0,0);//when scrolled it will take to top of the windows
         }}
       >
-        <a href="nirakar-sapkota.github.io/portfolio"><img src={logo} alt='logo' className='w-15 h-12 object-contain '/>
+        <img src={logo} alt='logo' className='w-15 h-12 object-contain '/> 
         <p className='text-white text-[18px] font-bold cursor-pointer flex'>
         Nirakar &nbsp;
         <span className='sm:block hidden'>
         | Portfolio </span>
         </p>
-        </a>
+    
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link)=>{
