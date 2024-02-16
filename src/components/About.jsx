@@ -67,7 +67,7 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About,"");
+export default SectionWrapper(About,"about");
 
 // import React from "react";
 
