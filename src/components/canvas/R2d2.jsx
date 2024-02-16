@@ -12,7 +12,7 @@ import React, { useRef, useEffect, useState } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { Canvas, useLoader } from '@react-three/fiber'
-import { MeshoptDecoder } from './meshopt_decoder.module.js';
+
 
 export function R2d2(props) {
   const group = useRef()
@@ -35,7 +35,7 @@ export function R2d2(props) {
 
     <group ref={group} {...props} dispose={null}>
   
-      <group name="Sketchfab_Scene" className='-mt-5'>
+      <group name="Sketchfab_Scene" >
       
          <mesh>
               <hemisphereLight intensity={0.21}/>
