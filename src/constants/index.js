@@ -13,11 +13,12 @@ import {
   tailwind,
 
   git,
-
+  azure,
   webvine,
   google,
- comptia,
-   officeworks,
+  comptia,
+  securityplus,
+  officeworks,
   acs,
   carrent,
   jobit,
@@ -47,19 +48,19 @@ const services = [
   },
   {
     title: "Web Development",
-    icon: web,
+    icon: reactjs,
   },
   {
     title: "CompTIA Network +",
-    icon: mobile,
+    icon: comptia,
   },
   {
     title: "CompTIA Security+",
-    icon: backend,
+    icon: securityplus,
   },
   {
     title: "Azure",
-    icon: creator,
+    icon: azure,
   }
 ];
 
@@ -174,7 +175,7 @@ const experiences = [
   },
 
   {
-    title: "The ACS Professional Year Program – ICT: Current Member ID #4265238                                                            ",
+    title: "The ACS Professional Year Program – ICT: Current Member ID #4265238",
     company_name: "QIBA",
     icon: acs,
     iconBg: "#E6DEDD",
@@ -192,93 +193,94 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "CompTIA Network Plus",
+    name: "CompTIA",
+    designation: "Certification",
+    company: "Enrolled With: Learning People / Skillsoft",
+    image: comptia,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Azure Cloud",
+    name: "Microsoft",
+    designation: "Certification",
+    company: "Coursera/Microsoft",
+    image:azure,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "CompTIA Security Plus",
+    name: "CompTIA",
+    designation: "Cyber Security Certification",
+    company: "Enrolled With: Learning People / Skillsoft",
+    image: securityplus,
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "System Administration Project",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
+      "Active directory administration, PowerShell: Automated Provision, maintaining and deprovisioning user accounts.Setting up Remote Access Server (RAS) features to support NAT/PAT.Implementation and Maintenance of Windows DNS and DHCP Services.Configuration of Windows File Servers with Implementation of quotas and NTFS permissions",
+  
+      tags: [
       {
-        name: "react",
+        name: "Active Directory",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "PowerShell",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Windows Server",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:google,
+    source_code_link: "https://github.com/Nirakar-Sapkota",
   },
   {
-    name: "Job IT",
+    name: "Cyber Security Enthusiast",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Created a custom/proof of concept File Integrity Monitor (FIM).Created an Integrity Baseline of target files/ folders using a SHA-512 hashing algorithm. Continuously made comparison of actual file versus baseline, raised alerts if any deviations occurred.Displayed alert messages to allow further investigation and potentials.",
     tags: [
       {
-        name: "react",
+        name: "PowerShell",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Hashing",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "SHA-512",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: securityplus,
+    source_code_link: "https://github.com/Nirakar-Sapkota/fim",
   },
   {
-    name: "Trip Guide",
+    name: "Portfolio Website",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Working with various technologies and frameworks allowed me to learn different aspects of web.",
     tags: [
       {
-        name: "nextjs",
+        name: "threeJs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: reactjs,
+    source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
 ];
 

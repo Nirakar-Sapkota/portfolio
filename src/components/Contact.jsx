@@ -51,7 +51,7 @@ const Contact = () => {
       }, (error)=>{
           setLoading(false)
           console.log(error)
-          alert('Something went Wrong')
+          alert('Hi This is Nirakar :),Again, looks Like Something went Wrong :( Can you refresh your page please!')
       })
   }
   return (
@@ -61,7 +61,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
       <p className={styles.sectionSubText}>Get In Touch</p>
-      <h3 className={styles.sectionHeadText}>Contact.</h3>
+      <h3 className={styles.sectionHeadText}>Contact</h3>
       <form 
         ref={formRef}
         onSubmit={handleSubmit}
@@ -74,7 +74,7 @@ const Contact = () => {
             name="name"
             value={form.name}
             onChange={handleChange}
-            placeholder="What is you Name?"
+            placeholder="Enter your Name?"
             className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
             outlined-none border-none font-medium'
           />
@@ -86,7 +86,7 @@ const Contact = () => {
           name="email"
           value={form.email}
           onChange={handleChange}
-          placeholder="What is you Email?"
+          placeholder="Enter your Email?"
           className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
           outlined-none border-none font-medium'
         />
