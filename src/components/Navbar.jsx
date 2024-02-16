@@ -23,7 +23,7 @@ const Navbar = () => {
           window.scrollTo(0,0);//when scrolled it will take to top of the windows
         }}
       >
-        <img src={logo} alt='logo' className='w-15 h-12 object-contain '/>
+        <img src={logo} alt='logo' href="nirakar-sapkota.github.io/portfolio/" className='w-15 h-12 object-contain '/>
         <p className='text-white text-[18px] font-bold cursor-pointer flex'>
         Nirakar &nbsp;
         <span className='sm:block hidden'>
