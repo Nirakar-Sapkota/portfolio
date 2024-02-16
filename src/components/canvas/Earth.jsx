@@ -50,7 +50,7 @@ const EarthCanvas=()=>{
     <hemisphereLight intensity={0.21}/>
     <pointLight 
     intensity={1.8}
-      position = {[30,10,-12]}
+      position = {[10,10,-12]}
     />
       <SpotLight
         position ={[-3,-8,8]}
