@@ -58,7 +58,7 @@ const Contact = () => {
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
       <motion.div 
         variants={slideIn('left', 'tween',0.2,1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-[#FFFFFF83] p-8 rounded-2xl'
       >
       <p className={styles.sectionSubText}>Get In Touch</p>
       <h3 className={styles.sectionHeadText}>Contact</h3>
@@ -75,7 +75,7 @@ const Contact = () => {
             value={form.name}
             onChange={handleChange}
             placeholder="Enter your Name?"
-            className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
+            className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
             outlined-none border-none font-medium'
           />
         </label>
@@ -87,7 +87,7 @@ const Contact = () => {
           value={form.email}
           onChange={handleChange}
           placeholder="Enter your Email?"
-          className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
+          className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
           outlined-none border-none font-medium'
         />
       </label>
@@ -100,14 +100,14 @@ const Contact = () => {
         value={form.message}
         onChange={handleChange}
         placeholder="Type your Message here!"
-        className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
+        className='bg-primary py-4 px-6 placeholder:text-secondary text-white rounded-lg 
         outlined-none resize-none border-none font-medium'
       />
     </label>
 
       <button 
         type='submit'
-        className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary 
+        className='bg-green py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary 
         rounded-xl'
       >{loading ? 'Sending...':'Send'} 
       </button>

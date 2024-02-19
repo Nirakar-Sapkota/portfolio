@@ -7,19 +7,19 @@ import {styles} from '../styles'
 
 const FeedbackCard=({index, testimonial, name, designation, company, image})=>(
   <motion.div variants={fadeIn("","spring", index*0.5,0.75)}
-  className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
+  className="bg-[#FFFFFFD0] p-10 rounded-3xl xs:w-[320px] w-full"
   >
-    <p className="text-white font-black text-[48px]">&quot;</p>
+    <p className="text-black font-black text-[48px]">&quot;</p>
     <div className="mt-1">
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
+      <p className='text-black tracking-wider text-[18px]'>{testimonial}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
-          <p className="text-white font-medium text-[16px]">
+          <p className="text-black font-medium text-[16px]">
             <span className='blue-text-gradient'>@</span>{name}
 
           </p>
-            <p className='mt-1 text-secondary text-[12px]'>
+            <p className='mt-1 text-black text-[12px]'>
               {designation} of {company}
             </p>
 
@@ -35,15 +35,15 @@ const FeedbackCard=({index, testimonial, name, designation, company, image})=>(
 )
 const Feedbacks = () => {
   return (
-    <div className='mt-12 bg-black-100 rounded-[20px]'>
+    <div className='mt-12 bg-green rounded-[20px]'>
       <div className={`${styles.padding}
       bg-[#FFFFFFD0] rounded-2xl min-h-[300px]`}>
       <motion.div variants={textVariant()}>
-        <p className='text-[#375E04] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>Currently Pursuing </p>
-        <h2 className="font-black text-green lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Certifications</h2>
+        <p className='text-[#447207] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>Currently Pursuing </p>
+        <h2 className="font-black text-[#447207] lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Certifications</h2>
       </motion.div>
       </div>
-      <div className={`${styles.padding} -mt-20 pb-14 flex flex-wrap gap-7`}>
+      <div className={`${styles.padding} -mt-20 pb-14 bg-[#1C4B06B7] flex flex-wrap gap-7`}>
         {testimonials.map((testimonial,index)=>(
           <FeedbackCard 
           key={testimonial.name}
