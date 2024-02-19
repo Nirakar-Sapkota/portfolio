@@ -1,6 +1,6 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import {motion} from 'framer-motion';
+import {motion, spring} from 'framer-motion';
 import 'react-vertical-timeline-component/style.min.css';
 import {styles} from '../styles';
 import {experiences} from '../constants';
@@ -11,8 +11,8 @@ import {textVariant} from '../utils/motion';
 const ExperienceCard = ({experience})=>{
 return(
       <VerticalTimelineElement 
-              contentStyle={{background:'#1d1836', color:'#fff'}}
-              contentArrowStyle={{borderRight:'7px solid #232631'}}
+              contentStyle={{background:'#193F03', color:'#fff'}}
+              contentArrowStyle={{borderRight:'7px solid #E5FF00'}}
               date={experience.date}
               iconStyle={{background:experience.iconBg}}
               icon={
@@ -49,13 +49,13 @@ return(
 }
 const Experience = () => {
   return (
-      <div>
+      <div className="mt-15">
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}> My Journey </p>
           <h2 className={styles.sectionHeadText}>Education and Work Experience</h2>
         </motion.div>
-        
-        <div className='mt-20 flex flex-col'>
+    
+        <div className='mt-40 flex flex-col'>
           <VerticalTimeline>
             {experiences.map((experience, index)=>(
               <ExperienceCard key={`experience-${index}`} experience={experience}
@@ -70,4 +70,4 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience,"work");
+export default SectionWrapper(Experience,"");
