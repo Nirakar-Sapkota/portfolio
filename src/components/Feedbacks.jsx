@@ -37,13 +37,13 @@ const Feedbacks = () => {
   return (
     <div className='mt-12 bg-green rounded-[20px]'>
       <div className={`${styles.padding}
-      bg-[#FFFFFFD0] rounded-2xl min-h-[300px]`}>
+      bg-[#FFFFFFD0]  min-h-[300px] rounded-[20px] `}>
       <motion.div variants={textVariant()}>
         <p className='text-[#447207] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>Currently Pursuing </p>
         <h2 className="font-black text-[#447207] lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Certifications</h2>
       </motion.div>
       </div>
-      <div className={`${styles.padding} -mt-20 pb-14 bg-[#1C4B06B7] flex flex-wrap gap-7`}>
+      <div className={`${styles.padding} -mt-20 pb-14 bg-[#1C4B06B7]  rounded-[20px] flex flex-wrap gap-7`}>
         {testimonials.map((testimonial,index)=>(
           <FeedbackCard 
           key={testimonial.name}
