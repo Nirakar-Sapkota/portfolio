@@ -41,7 +41,7 @@ const Contact = () => {
       )
       .then(()=>{
         setLoading(false);
-        alert('Thank you for your email I will get back to you As soon as possible.');
+        alert('Thank you for your email I will get back to you as soon as possible.');
 
         setForm({
           name:'',
