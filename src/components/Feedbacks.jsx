@@ -37,10 +37,10 @@ const Feedbacks = () => {
   return (
     <div className='mt-12 bg-black-100 rounded-[20px]'>
       <div className={`${styles.padding}
-      bg-green rounded-2xl min-h-[300px]`}>
+      bg-[#FFFFFFD0] rounded-2xl min-h-[300px]`}>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Currently Pursuing </p>
-        <h2 className={styles.sectionHeadText}>Certifications</h2>
+        <p className='text-[#375E04] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]'>Currently Pursuing </p>
+        <h2 className="font-black text-green lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2">Certifications</h2>
       </motion.div>
       </div>
       <div className={`${styles.padding} -mt-20 pb-14 flex flex-wrap gap-7`}>
