@@ -60,6 +60,7 @@ const services = [
   {
     title: "CompTIA Network +",
     icon: comptia,
+    url:'https://skillsoft.digitalbadges-eu.skillsoft.com/profile/eu-nirakarsapkota4002/wallet',
   },
   {
     title: "CompTIA Security+",
