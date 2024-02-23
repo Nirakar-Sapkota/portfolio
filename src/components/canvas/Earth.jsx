@@ -4,6 +4,7 @@ import {Canvas} from '@react-three/fiber';
 import { OrbitControls,SpotLight, Preload, useGLTF } from '@react-three/drei';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 import CanvasLoader from '../Loader.jsx';
+import { MeshBasicMaterial, MeshLambertMaterial } from 'three';
 const Earth = () => {
 
   const earth = useGLTF( './planet/scene.gltf')
@@ -45,17 +46,17 @@ const EarthCanvas=()=>{
     <Earth/>
     
     </Suspense>
-    <mesh>
+    <mesh >
  
-    <hemisphereLight intensity={0.21}/>
+    <hemisphereLight intensity={2.5} color={'#0F13F1E3'} position={[2,2,2]}/>
     <pointLight 
-    intensity={1.8}
-      position = {[10,10,-12]}
+    intensity={0.8}
+      position = {[1,5,-12]}
     />
       <SpotLight
-        position ={[-3,-8,8]}
+        position ={[1,-8,8]}
         penumbra={2}
-        intensity={3.5}
+        intensity={0.5}
         shadow-mapSize={1024}
     />
   </mesh>
