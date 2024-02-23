@@ -9,7 +9,7 @@ import close from "./close.svg";
 import vu from "./vu.png";
 
 import css from "./tech/css.png";
-
+import url from "./certificates/github.png";
 
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -63,4 +63,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  url,
 };

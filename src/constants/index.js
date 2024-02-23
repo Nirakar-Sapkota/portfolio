@@ -11,7 +11,7 @@ import {
   reactjs,
  
   tailwind,
-
+  url,
   git,
   azure,
   webvine,
@@ -45,10 +45,12 @@ const services = [
   {
     title:"Masters of Applied IT",
     icon: vu,
+    url:'https://www.myequals.net/sharelink/6e7dc183-5b96-4b21-9703-3b2ce4fec241/1f2fcd8e-d185-4956-8e91-c2d56ae37d91',
   },
   {
     title:"Google IT Support Professional Certificate",
     icon: google,
+    url:"https://coursera.org/share/d709e49e0bd6776eeb074b47db66393f", 
     
   },
   {
