@@ -7,7 +7,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import {SectionWrapper}  from '../hoc';
 
-const ServiceCard =({index, title, icon,url})=>(
+const ServiceCard =({index, title, icon, url})=>(
 
 
 

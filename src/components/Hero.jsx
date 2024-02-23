@@ -5,17 +5,17 @@ import { ComputersCanvas } from './canvas';
 const Hero = () => {
   return (
     <section className ="relative w-auto h-screen mx-auto">
-    <div className={`${styles.paddingX} absolute inset-10 top-[130px] 
-      max-w-7x1 mx-auto flex flex-row items-start gap-5`}>
+    <div className={`${styles.paddingX} absolute inset-10 top-[120px] 
+      max-w-7x1 mx-120 flex flex-row items-start gap-3`}>
       <div className='flex flex-col justify-center items-center mt-5'>
-      <div className='w-5 h-5 rounded-full bg-[#79FF5E]'/>
-      <div className='w-1 sm:h-80 h-40 violet-gradient'/>
+      <div className='w-5 h-5 rounded-full bg-[#F8A813]'/>
+      <div className='w-1 sm:h-80 h-40 green-gradient'/>
       </div>
       <div>
       <h1 className={`${styles.heroHeadText} text-white`}>
-        Hi, I am <span className='text-[#7CFF5E]'>Nirakar</span>
+        Hi, I am <span className='text-[#2AC906]'>Nirakar</span>
       </h1>
-      <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+      <p className={`${styles.heroSubText} mt-2 text-[#EC9D0A]`}>
       Welcome To my Portfolio<br className='sm:block hidden'/>
       
       </p>
@@ -27,11 +27,11 @@ const Hero = () => {
 
    <ComputersCanvas  />
 
-    <div className=' absolute xs:bottom-5 bottom-100
+    <div className=' absolute xs:bottom-8 bottom-2
     w-full flex justify-center items-center'>
       <a href='#about'>
       <div className='w-[35px] h-[70px]  rounded-3xl border-4 border-secondary
-      flex justify-center items-start p-2 m-7 ' >
+      flex justify-center items-start p-2 m-2 ' >
       <motion.div
         animate={{
           y:[5,24,0]
@@ -41,7 +41,7 @@ const Hero = () => {
           repeat:Infinity,
           repeatType:'loop'
         }}
-        className='w-3 h-3 rounded-full bg-secondary  mb-5'
+        className='w-3 h-3 rounded-full bg-secondary  mb-0'
       
       />
       </div>

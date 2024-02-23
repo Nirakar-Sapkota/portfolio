@@ -35,20 +35,21 @@ export function R2d2(props) {
 
     <group ref={group} {...props} dispose={null}>
   
-      <group name="Sketchfab_Scene" >
+      <group name="Sketchfab_Scene" scale={1.15}  position = {[1.5,0,3]}>
       
          <mesh>
-              <hemisphereLight intensity={0.21}/>
+              <hemisphereLight intensity={0.89} color={'#3DB605FA'}/>
               <pointLight 
-              intensity={1.8}
-                position = {[30,10,-12]}
+              intensity={0.8}
+              position = {[1.1,0,4]}
+               
               />
-                <SpotLight
-                  position ={[-3,-8,8]}
-                  penumbra={2}
-                  intensity={3.5}
-                  shadow-mapSize={1024}
-              />
+              <SpotLight
+              position ={[9,2,3]}
+              penumbra={2}
+              intensity={0.5}
+              shadow-mapSize={1024}
+          />
 
           
            

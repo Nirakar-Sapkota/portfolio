@@ -26,7 +26,7 @@ import { R2d2 } from './R2d2.jsx'
     useEffect(()=>{
 
       //Add a Listener for changes to the screen size
-      const mediaQuery = window.matchMedia('(max-width:500px)');
+      const mediaQuery = window.matchMedia('(max-width:400px)');
       
       //Set the initial value of the 'isMobile' state variable
       setIsMobile(mediaQuery.matches)
@@ -53,7 +53,7 @@ import { R2d2 } from './R2d2.jsx'
   <Canvas
     frameloop='always'
     shadows='soft'
-    camera={{position:[25,15,45], fov:2}}
+    camera={{position:[25,15,45], fov:3}}
  
    
   >
