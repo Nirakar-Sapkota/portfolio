@@ -49,6 +49,7 @@ const services = [
   {
     title:"Google IT Support Professional Certificate",
     icon: google,
+    
   },
   {
     title: "Web Development",

@@ -7,7 +7,7 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import {SectionWrapper}  from '../hoc';
 
-const ServiceCard =({index, title, icon})=>(
+const ServiceCard =({index, title, icon,url})=>(
 
 
 
@@ -25,8 +25,8 @@ const ServiceCard =({index, title, icon})=>(
         flex justify-evenly items-center flex-col"
         >
 
-        <img src={icon} alt={title} 
-        className='w-16 h-16 object-contain'/>
+        <a href="https://coursera.org/share/d709e49e0bd6776eeb074b47db66393f" rel="noreferrer" target='_blank'><img src={icon} alt={title} 
+        className='w-16 h-16 object-contain'/></a>
         <h3  className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
 
