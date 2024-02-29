@@ -73,7 +73,7 @@ const services = [
   },
   {title:"Youtube◄┼Content Creator",
     icon:youtube,
-    url:"https://youtu.be/uzQzKj3ivRc"
+    url:"https://www.youtube.com/@nirakar-sapkota"
   },
   {
     title: "Web Development",
