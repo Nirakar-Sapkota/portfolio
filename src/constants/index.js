@@ -57,10 +57,7 @@ const services = [
     url:"https://coursera.org/share/d709e49e0bd6776eeb074b47db66393f", 
     
   },
-  {
-    title: "Web Development",
-    icon: reactjs,
-  },
+
   {
     title: "CompTIA Network +",
     icon: comptia,
@@ -77,6 +74,10 @@ const services = [
   {title:"My YouTube Channel",
     icon:youtube,
     url:"https://youtu.be/uzQzKj3ivRc"
+  },
+  {
+    title: "Web Development",
+    icon: reactjs,
   }
 ];
 
