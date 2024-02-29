@@ -9,7 +9,9 @@ import {
   html,
   css,
   reactjs,
- 
+ r2d2,
+ ad,
+ server,
   tailwind,
   url,
   git,
@@ -20,10 +22,12 @@ import {
   securityplus,
   officeworks,
   acs,
+  shield,
   carrent,
   jobit,
   tripguide,
   threejs,
+  youtube,
 } from "../assets";
 
 export const navLinks = [
@@ -69,10 +73,22 @@ const services = [
   {
     title: "Azure",
     icon: azure,
+  },
+  {title:"My YouTube Channel",
+    icon:youtube,
+    url:"https://youtu.be/uzQzKj3ivRc"
   }
 ];
 
 const technologies = [
+  {
+    name: "Active Directory",
+    icon: ad,
+  },
+  {
+    name: "Cloud",
+    icon: shield,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -245,7 +261,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image:google,
+    image:server,
     source_code_link: "https://github.com/Nirakar-Sapkota",
   },
   {
@@ -266,8 +282,34 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: securityplus,
+    image: shield,
     source_code_link: "https://github.com/Nirakar-Sapkota/fim",
+  },
+  {
+    name: "Security Analyst / Content Creator",
+    description:
+      "Developed Content on YouTube, used PowerShell script to extract metadata from Windows Event Viewer to send the data to an API to retrieve a geolocation of that IP. Configured Log Analytics Workspace in Azure and created custom logs and queries.Fetched data into Microsoft Sentinel (cloud SIEM) workbook to show the global attack vector and physical mapping of the ip based locations.",
+    tags: [
+      {
+        name: "PowerShell",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Microsoft Azure",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Microsoft Sentinel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SIEM",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtube,
+    source_code_link: "https://github.com/Nirakar-Sapkota/honeypot",
+    url:"https://youtu.be/uzQzKj3ivRc"
   },
   {
     name: "Portfolio Website",
@@ -287,9 +329,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: reactjs,
+    image: r2d2,
     source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
   },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
