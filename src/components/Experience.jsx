@@ -49,7 +49,7 @@ return(
 }
 const Experience = () => {
   return (
-      <div className="mt-5">
+      <div className="mt-2">
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}> My Journey </p>
           <h2 className={styles.sectionHeadText}>Education and Work Experience</h2>

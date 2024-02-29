@@ -71,7 +71,7 @@ const services = [
     title: "Azure",
     icon: azure,
   },
-  {title:"My YouTube Channel",
+  {title:"Youtube◄┼Content Creator",
     icon:youtube,
     url:"https://youtu.be/uzQzKj3ivRc"
   },
