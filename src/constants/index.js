@@ -338,7 +338,7 @@ const projects = [
     source_code_link: "https://github.com/Nirakar-Sapkota/portfolio",
   },
   {
-    name: "IMDB Movie Search",
+    name: "IMDB API",
     description:
       "A small stepping stone: created as a fun project where I used an IMDP API to fetch data from the server and display them on the webpage, with search functionality ; you can search for the movies on demand. It was fun project and good learning curve to understand how array destructuring works and how to fetch data in JSON format and display them on the webpage. With easy integration and CSS styling.",
     tags: [
