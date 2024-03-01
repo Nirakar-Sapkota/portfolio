@@ -319,7 +319,7 @@ const projects = [
   {
     name: "Portfolio Website",
     description:
-      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Working with various technologies and frameworks allowed me to learn different aspects of web.",
+      "Building my own portfolio had a massive learning curve.It enabled me to understand and implement the concept of Web Design principles. Working with various technologies and frameworks allowed me to learn different aspects of web. This project was built using nodeJS, Vite, React, TailwindCSS, ThreeJS, thanks to JAVASCRIPT",
     tags: [
       {
         name: "threeJs",
@@ -335,8 +335,30 @@ const projects = [
       },
     ],
     image: r2d2,
-    source_code_link: "https://nirakar-sapkota.github.io/portfolio/",
+    source_code_link: "https://github.com/Nirakar-Sapkota/portfolio",
   },
+  {
+    name: "IMDB Movie Search",
+    description:
+      "A small stepping stone: created as a fun project where I used an IMDP API to fetch data from the server and display them on the webpage, with search functionality ; you can search for the movies on demand. It was fun project and good learning curve to understand how array destructuring works and how to fetch data in JSON format and display them on the webpage. With easy integration and CSS styling.",
+    tags: [
+      {
+        name: "Vanilla Javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS3",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML5",
+        color: "pink-text-gradient",
+      },
+    ],
+    image:web,
+    source_code_link: "https://nirakar-sapkota.github.io/imdbsearch/",
+  },
+
 
 ];
 
