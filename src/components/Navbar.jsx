@@ -11,23 +11,22 @@ const Navbar = () => {
 
   return (
     <nav 
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-[#01030065]`}
+      className={`${styles.paddingX} w-full flex items-center py-6 fixed top-0 z-20 bg-[#01030065]`}
     
     >
     <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
       <Link 
         to ='/portfolio'
-        className='flex items-center gap-2'
+        className='flex items-center gap-3'
         onClick={()=>{
           setActive('');//Keeps track of the position
           window.scrollTo(0,0);//when scrolled it will take to top of the windows
         }}
       >
-        <img src={logo} alt='logo' className='w-15 h-12 object-contain '/> 
+        <img src={logo} alt='logo' className='w-18 h-12 object-contain '/> 
         <p className='text-white text-[18px] font-bold cursor-pointer flex'>
-        MEET | &nbsp;
-        <span className='sm:block hidden'>
-        R2D2</span>
+        MEET | R2D2 &nbsp;
+     
         </p>
     
         </Link>
