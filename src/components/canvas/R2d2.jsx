@@ -38,7 +38,7 @@ export function R2d2(props) {
       <group name="Sketchfab_Scene" scale={1.15}  position = {[1.5,0,3]}>
       
          <mesh>
-              <hemisphereLight intensity={0.89} color={'#3DB605FA'}/>
+              <hemisphereLight intensity={0.89} />
               <pointLight 
               intensity={0.8}
               position = {[1.1,0,4]}

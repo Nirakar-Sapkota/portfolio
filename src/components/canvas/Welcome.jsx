@@ -2,7 +2,7 @@ import React from "react";
 import {Tilt} from 'react-tilt';
 import { motion,useAnimation } from 'framer-motion';
 
-import { styles } from '/src/styles.js';
+import { styles } from '/src/styles';
 import { services } from '/src/constants';
 import { fadeIn, textVariant } from '/src/utils/motion';
 import {SectionWrapper}  from '/src/hoc';
@@ -39,7 +39,7 @@ const Intro = () => {
                 
             </div>
         <motion.div animate={controls}>
-                <span className={`${styles.heroHeadText} text-greenest`}>Nirakar</span>
+                <span className={`${styles.heroHeadText} text-variant`}>Nirakar</span>
         </motion.div>
              
        <motion.div >
