@@ -6,6 +6,7 @@ import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import {SectionWrapper}  from '../hoc';
+import { VerticalTimeline } from "react-vertical-timeline-component";
 
 const ServiceCard =({index, title, icon, url})=>(
 
@@ -45,10 +46,11 @@ const About = () => {
 
   return (
     <div className="-mt-15">
-    <motion.div variants={textVariant()}>
-    <p className={styles.sectionSubText}> Introduction</p>
-    <h2 className={styles.sectionHeadText}>Overview</h2>
-    </motion.div>
+       <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}> Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview</h2>
+         
+        </motion.div>
     
     <motion.p
       variants={fadeIn('','',0.1,1)}

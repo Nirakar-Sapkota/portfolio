@@ -8,6 +8,7 @@ export default {
       tertiary: "#151030",
       red:"#9905057A",
       green:"#066E0F9A",
+      greenest:"#5DE707",
       white:"#FFFFFFCE",
       
       "black-100": "#100d25",
