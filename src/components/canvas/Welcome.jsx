@@ -17,9 +17,9 @@ const Intro = () => {
   
     React.useEffect(() => {
       controls.start({
-        rotate: [null, 360 * direction],
+        rotate: [null, 355 * direction],
         transition: {
-          duration: 1.75,
+          duration: 2.75,
           repeat: 0,
           ease: "linear"
         }
@@ -27,7 +27,7 @@ const Intro = () => {
   
       setTimeout(() => {
         setDirection(-1 * direction);
-      }, 9000);
+      }, 10000);
     }, [direction, controls]);
 
   return (
@@ -39,13 +39,9 @@ const Intro = () => {
                 
             </div>
         <motion.div animate={controls}>
-                <span className={`${styles.heroHeadText} text-variant`}>Nirakar</span>
+                <div className={`${styles.heroHeadText} text-[#D0FF00D5]`}>Nirakar</div>
         </motion.div>
-             
-       <motion.div >
 
-          
-               
                
         <motion.p 
         variants={  {
@@ -63,7 +59,7 @@ const Intro = () => {
             }}
             
           
->
+        >
         <div className="-mt-34  flex  gap-10">
             <p className={`${styles.heroSubText}  mt-15 text-[#EC9D0A]`}>
             Welcome To My Portfolio<br className='sm:block hidden'/></p>
@@ -71,7 +67,7 @@ const Intro = () => {
         </motion.p>
               
          
-        </motion.div>
+       
    
 
     </div>

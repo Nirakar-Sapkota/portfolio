@@ -7,8 +7,8 @@ export default {
       secondary: "#aaa6c3",
       tertiary: "#151030",
       red:"#9905057A",
-      green:"#066E0F9A",
-      variant:"#62FF00",
+      green:"#0D8017EF",
+      purple:"#2D6D06AD",
       white:"#FFFFFFCE",
       
       "black-100": "#100d25",
