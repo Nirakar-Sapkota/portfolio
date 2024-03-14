@@ -48,7 +48,7 @@ const EarthCanvas=()=>{
     </Suspense>
     <mesh >
  
-    <hemisphereLight intensity={2.5} color={'#0F13F1E3'} position={[2,2,2]}/>
+    <hemisphereLight intensity={2.5} color={'#1080FF'} position={[2,2,2]}/>
     <pointLight 
     intensity={0.8}
       position = {[1,5,-12]}
