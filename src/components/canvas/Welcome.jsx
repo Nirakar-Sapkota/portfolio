@@ -39,7 +39,7 @@ const Intro = () => {
                 
             </div>
         <motion.div animate={controls}>
-                <div className={`${styles.heroHeadText} text-[#D0FF00D5]`}>Nirakar</div>
+                <div className={`${styles.heroHeadText} text-[#D0FF00]`}>Nirakar</div>
         </motion.div>
 
                
