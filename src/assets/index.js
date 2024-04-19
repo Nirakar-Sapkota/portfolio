@@ -11,7 +11,7 @@ import youtube from "./tech/youtube.png";
 import shield from "./tech/shield.png";
 import css from "./tech/css.png";
 import url from "./certificates/github.png";
-
+import nca from "./nca.png"
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -70,4 +70,5 @@ export {
   jobit,
   tripguide,
   url,
+  nca,
 };

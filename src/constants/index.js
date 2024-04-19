@@ -28,6 +28,7 @@ import {
   tripguide,
   threejs,
   youtube,
+  nca,
 } from "../assets";
 
 export const navLinks = [
@@ -131,6 +132,23 @@ const technologies = [
 
 const experiences = [
   {
+    title: "IT Applications System Administrator	",
+    company_name: "Newcastle Anglican",
+    icon: nca,
+    iconBg: "#383E56",
+    date: "March 2024 - Present",
+    points: [
+      "Leveraging Dynamics 365 CRM Platform to deliver Business Applications",
+      "Administrating Users and assigning security roles",
+      "Providing quality service to the stakeholder",
+      "Understanding Business needs and working on improvement",
+      "Working on improving Business Applications to improve business process",
+      "Working closely with Business Analyst to help smooth out the features in Business Apps",
+      "Documentation and Project tracking, meeting with stakeholders to access the progress"
+
+    ],
+  },
+  {
     title: "CompTIA Network+ and CompTIA Security+",
     company_name: "Learning People / Skillsoft",
     icon: comptia,
@@ -173,7 +191,7 @@ const experiences = [
     company_name: "Officeworks",
     icon: officeworks,
     iconBg: "#383E56",
-    date: "2019 - Present",
+    date: "2019 - 2024",
     points: [
       "Effective communication and interpersonal skills developed through everyday interactions with clients. ",
       "Design and deliver artworks like canvas, banners, custom photo books, posters, and booklets etc.",
