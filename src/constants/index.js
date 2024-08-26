@@ -141,7 +141,7 @@ const experiences = [
       "Leveraging Dynamics 365 CRM Platform to deliver Business Applications",
       "Administrating Users and assigning security roles",
       "Providing quality service to the stakeholder",
-      "Working with Azure, Power Platforms and plugin development",
+      "Working with Azure, Power Platform and plugin development",
       "Understanding Business needs and working on improvement",
       "Working on improving Business Applications to improve business process",
       "Working closely with Business Analyst to help smooth out the features in Business Apps",
