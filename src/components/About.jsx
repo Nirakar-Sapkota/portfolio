@@ -55,7 +55,7 @@ const About = () => {
     <motion.p
       variants={fadeIn('','',0.1,1)}
     >
-      I am an IT Graduate from Victoria University with more than four years of customer service experience with High level of Technical Skills to meet your organisational standards.
+      I am an IT Graduate from Victoria University currently working as a Systems Administrator at Samaritans Foundation. And throughout my career, I have acquired High level of Technical Skills and experience to meet organisational standards.
     </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index)=>{
